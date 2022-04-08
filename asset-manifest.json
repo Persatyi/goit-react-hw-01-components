@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Persatyi/goit-react-hw-01-components/static/css/main.76d395cf.css",
+    "main.js": "/Persatyi/goit-react-hw-01-components/static/js/main.be230c4f.js",
+    "index.html": "/Persatyi/goit-react-hw-01-components/index.html",
+    "main.76d395cf.css.map": "/Persatyi/goit-react-hw-01-components/static/css/main.76d395cf.css.map",
+    "main.be230c4f.js.map": "/Persatyi/goit-react-hw-01-components/static/js/main.be230c4f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.76d395cf.css",
+    "static/js/main.be230c4f.js"
+  ]
+}
