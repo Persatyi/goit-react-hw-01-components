@@ -1,0 +1,45 @@
+.list {
+  display: flex;
+  margin: 0 auto;
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.item {
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 200px;
+  background-color: #fff;
+}
+
+.item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.online {
+  display: block;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  background-color: green;
+}
+
+.offline {
+  display: block;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  background-color: red;
+}
+
+.avatar {
+  display: block;
+}
+
+.name {
+  font-size: 20px;
+}
