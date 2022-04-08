@@ -1,11 +1,11 @@
-import s from './Transactions.css';
+import s from './Transactions.module.css';
 import PropTypes from 'prop-types';
 
 const Transactions = ({ items = [] }) => {
   const stats = items.map(el => {
     const { id, type, amount, currency } = el;
     return (
-      <tr key={id}>
+      <tr key={id} className={s.row}>
         <td>{type}</td>
         <td>{amount}</td>
         <td>{currency}</td>

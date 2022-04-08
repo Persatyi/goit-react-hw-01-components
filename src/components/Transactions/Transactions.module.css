@@ -16,6 +16,7 @@ tbody {
   background-color: rgb(180, 175, 175);
 }
 
-tr {
+.row {
   text-align: center;
+  background-color: rgb(180, 175, 175);
 }
